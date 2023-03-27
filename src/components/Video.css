@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.card {
+    width: 280px;
+    margin: 10px;
+    cursor: pointer;
+    position: relative;
+}
+
+.card .delete {
+    position: absolute;
+    right: 1px;
+}
+
+.card .edit {
+    position: absolute;
+    right: 55px;
+
+}
+
+.card img {
+    width: 100%;
+    height: 150px;
+    border-radius: 5px;
+}
+
+.view-time {
+    display: flex;
+}
+
+.channel {
+    display: flex;
+    align-items: center;
+    gap: 0 3px;
+}
+
+.btn {
+    background-color: rgb(226, 11, 11);
+    color: white;
+    padding: 6px 15px;
+    border: 1px solid;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 0 8px;
+}
+
+.btn:hover {
+    border: 1px solid rgb(226, 11, 11);
+    background-color: white;
+    color: rgb(226, 11, 11);
+}
